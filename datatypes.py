@@ -53,3 +53,5 @@ print(dict["name"])
 print(dict["hobby"][1]) # result=coding
 dict["name"]="jaas"  # mutable
 print(dict)
+
+#boolean
