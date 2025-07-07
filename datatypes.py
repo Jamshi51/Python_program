@@ -56,3 +56,4 @@ dict["name"]="jaas"  # mutable
 print(dict)
 
 #boolean
+#true or false
