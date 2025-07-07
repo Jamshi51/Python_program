@@ -1,0 +1,10 @@
+a=14
+b=14
+a+=4
+print(a)
+b-=4
+print(b)
+a//=b
+print(a)
+a/=b
+print(a)
