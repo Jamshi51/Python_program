@@ -12,8 +12,7 @@ print(l)
 # print(l)
 
 # slicing
-
-# a=['jamshi',1,'jaas',2]
+#a=['jamshi',1,'jaas',2]
 # print(a[1:3]) #[1, 'jaas']
 # print(a[ :3]) 
 # print(a[1: ])
