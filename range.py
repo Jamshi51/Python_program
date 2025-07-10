@@ -8,7 +8,17 @@
 #     #print(f"{k}*{n}={k*n}")  #multiplication of 5
 #     print(k*n) # 3,6,9,12,15,18,21,24,27,30
 
-for num in range(1,17):
-    if num%2==0:
-        print(num)
+# write a program to write even number from 1 to 16
+# for num in range(1,17):
+#     if num%2==0:
+#         print(num)
+
+#print fruits name with starting letter  A from the list 
+list=["Apple","Banana","Mosambi","Plums","Avocado"]
+for k in list:
+    s=k.capitalize()
+    if(s.startswith("A")):
+            print(k)
+
+
     
