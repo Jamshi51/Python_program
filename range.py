@@ -14,11 +14,53 @@
 #         print(num)
 
 #print fruits name with starting letter  A from the list 
-list=["Apple","Banana","Mosambi","Plums","Avocado"]
-for k in list:
-    s=k.capitalize()
-    if(s.startswith("A")):
-            print(k)
+# list=["Apple","Banana","Mosambi","Plums","Avocado"]
+# for k in list:
+#     s=k.capitalize()
+#     if(s.startswith("A")):
+#             print(k)
+
+#  print starting with wovels words from list
+# w=["Apple","ball","eat","wolf"]
+# for word in w:
+#     if word[0].lower() in ["a","e","i","o","u"]:
+#          print(word)
+
+#print the count of every letters in a string
+# s="java"
+# d={}
+# for i in s:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(d)
+     
+#factorial of a number
+# n=int(input("enter the number :"))
+# k=1
+# for num in range(1,n+1):
+#     k=k*num
+# print(k)
+
+#
+# for num in range(1,11):
+#        if num==3:
+#               continue
+#        print(num)
+
+# #
+# for num in range(1,11):
+#         if num==7:
+#               break
+#         print(num)
+
+#
+# for r in range(1,4):
+#     for j in range(1,r+1):
+#         print(j,end=" ")
+#     print(" ")
+
 
 
     
