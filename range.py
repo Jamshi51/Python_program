@@ -58,9 +58,11 @@
 #
 # for r in range(1,4):
 #     for j in range(1,r+1):
-#         print(j,end=" ")
-#     print(" ")
+#         print(j,end=" ") 
 
-
+n=int(input("enter the number : "))
+f=count=1
+while count<=n:
+    f=f*count
 
     
