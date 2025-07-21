@@ -74,12 +74,35 @@ for i in range(n):
 for r in range(5,0,-1):
     print(" "*int(5-r),"* "*r)
 
+for i in range(0,6):
+    print(" "*(5-i),"* "*i)
+'''
+    #output
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
 
-    
-        
+''' 
+n=5
+for i in range(0,6):
+    print(" "*(5-i),"* "*i)       
+for r in range(4,0,-1):
+    print(" "*int(5-r),"* "*r)
 
-         
+'''
 
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *       
+'''
     
 
 
