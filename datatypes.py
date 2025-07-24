@@ -4,11 +4,15 @@
 
 #int
 age=23
-print(type(27))  # which datatype used
+print(type(age))  # which datatype used
+print(abs(age))
+print(age.bit_length)
 
 #float
 n=3.45
 print(type(n))
+print(round(n))
+print(n.is_integer())
 
 #complex
 a=1+1j
