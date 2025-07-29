@@ -4,6 +4,9 @@ Inheritance allows a class (child class) to acquire properties and methods of an
 
  '''
 #single inheritance
+#A child class inherits from only one parent class.
+
+
 # class Vehicles: #parent class
 #     def details(self,make,model): #it is not use init 
 #         self.make=make

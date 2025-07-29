@@ -1,4 +1,7 @@
 #multiple inheritance
+#A class inherits from more than one parent class.
+
+
 # class Father:
 #     def skills(self):
 #         print("Gardening")
@@ -67,6 +70,7 @@ class son(father,mother):
 c=son("GMLPS","Ram","60","Sita","45")
 print("school :",c.son_school)
 print("father :",c.father_name)
+print("mother : ",c.mother_name)
 
 
 
