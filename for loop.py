@@ -45,5 +45,8 @@ t=(1,2 ,2,"jamshi","python")
 for k in t:
     print(k,end=" ") #1 2 2 jamshi python
 
-
+keys = ['a', 'b', 'c']
+values = [1, 2, 3, 4]
+result = dict(zip(keys, values))
+print(result)
 
