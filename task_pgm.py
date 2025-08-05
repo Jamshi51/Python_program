@@ -18,4 +18,5 @@ age=int(input("Enter your age :"))
 fav_num=int(input("Enter the favorite number:"))
 print(type(age))
 print(type(fav_num))
-print(f"Hello {name}! you are {age} years old! and your favorite number is {fav_num}!")
+print(f"Hello {name}! you are {age} years old! and your favorite number is {fav_num}!")       
+
