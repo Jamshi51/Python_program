@@ -34,25 +34,34 @@ while condition:
 
 #
 
-while True:
-    a=int(input("Enter the number : "))
-    b=int(input("Enter the number : "))
-    c=int(input("please enter your choice :\n1.addition \n2.subtraction\n3.multiplication\n4.division \nEnter your choice : "))
-    if c==1:
-     print(a+b)
-    elif c==2:
-     print(a-b)
-    elif c==3:
-     print(a*b)
-    else:
-     print(a/b)
-    d=input("do you continue with this ?")
-    if d=="yes":
-      continue
-    else:
-      break
+# while True:
+#     a=int(input("Enter the number : "))
+#     b=int(input("Enter the number : "))
+#     c=int(input("please enter your choice :\n1.addition \n2.subtraction\n3.multiplication\n4.division \nEnter your choice : "))
+#     if c==1:
+#      print(a+b)
+#     elif c==2:
+#      print(a-b)
+#     elif c==3:
+#      print(a*b)
+#     else:
+#      print(a/b)
+#     d=input("do you continue with this ?")
+#     if d=="yes":
+#       continue
+#     else:
+#       break
   
-  
+  #password validation
+
+# 
+
+password = " "
+while password != "python123":
+    password = input("Enter the password: ")
+else:
+    print("Success... The password is correct!")
+
 
 
 

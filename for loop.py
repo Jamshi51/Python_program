@@ -41,12 +41,44 @@
 #     print(w,d[w]) # same output
 
 # #tuple
-t=(1,2 ,2,"jamshi","python")
-for k in t:
-    print(k,end=" ") #1 2 2 jamshi python
+# t=(1,2 ,2,"jamshi","python")
+# for k in t:
+#     print(k,end=" ") #1 2 2 jamshi python
 
 keys = ['a', 'b', 'c']
 values = [1, 2, 3, 4]
 result = dict(zip(keys, values))
 print(result)
 
+# sum of 1 to10
+# sum=0
+# for i in range(1,11):
+#     sum=sum+i
+# print("sum : ",sum)
+
+# print only even numbers
+# numbers=[1,5,3,7,8,4,2]
+# for i in numbers:
+#     if i%2==0:
+#         print(i)
+
+
+# multiplication table for 1 to 5
+
+# for i in range(1,6):
+#     for j in range(1,11):
+#         print(f"{j}*{i}={i*j}")
+#     print()
+
+# find a number from list
+
+# 
+
+
+secret_code=7
+guess=int(input("Enter your guessed number : "))
+while guess==secret_code:
+    print("correct...you guessed it..")
+    break
+else:
+    print("sorry...wrong guessing..!")

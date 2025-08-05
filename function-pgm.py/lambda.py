@@ -25,8 +25,13 @@
 # print(list(filter(lambda a:True if a%2==0 else False,number)))  #It returns only those elements for which the function returns True.
 #                                                                 #[2,4]
 
-from functools import reduce #reduce() is part of the functools module.
-s=reduce(lambda a,b:a*b,range(1,6))
-print(s)
+# from functools import reduce #reduce() is part of the functools module.
+# s=reduce(lambda a,b:a*b,range(1,6))
+# print(s)
 
+#sqr of numbers
 
+sqr=lambda a:a**2
+print(sqr(8))
+
+# filter even numbers from 1 to 20

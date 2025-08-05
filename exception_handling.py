@@ -34,14 +34,19 @@
 
 # a,b=map(int,input("enter 2 numbers : ").split()) #enter the value in one line
 # print(a+b)
-while True:
-    a,b=map(int,input("enter 2 numbers : ").split())
-    try:
-      c=a/b
-      print(c)
-    except exception as e:
-      print("error",e)
+# while True:
+#     a,b=map(int,input("enter 2 numbers : ").split())
+#     try:
+#       c=a/b
+#       print(c)
+#     except Exception as e:
+#       print("error",e)
     
-
-
+# Write a Python program that prompts the user for input and 
+# handles possible errors (e.g., entering a string instead of a number).
+try:
+    n=int(input("Enter the Number : "))
+    print("Number : ",n)
+except Exception as e:
+    print("Please enter valid number")
 

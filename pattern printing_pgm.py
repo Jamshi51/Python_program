@@ -53,59 +53,74 @@
 #         print(r*k,end=" ")
 #     print()
 
-n=5
-for i in range(n):
-    for j in range(n-i-1):
-        print(" ",end="")
-        for j in range(i+1):
-            print("*",end=" ")
-    print()
-    
-
-#Create python code for displaying the following patterns 
-"""
-* * * * *
- * * * *
-  * * *
-   * *
-    *
-"""
 # n=5
-for r in range(5,0,-1):
-    print(" "*int(5-r),"* "*r)
-
-for i in range(0,6):
-    print(" "*(5-i),"* "*i)
-'''
-    #output
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
-
-''' 
-n=5
-for i in range(0,6):
-    print(" "*(5-i),"* "*i)       
-for r in range(4,0,-1):
-    print(" "*int(5-r),"* "*r)
-
-'''
-
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
-  * * * *
-   * * *
-    * *
-     *       
-'''
+# for i in range(n):
+#     for j in range(n-i-1):
+#         print(" ",end="")
+#         for j in range(i+1):
+#             print("*",end=" ")
+#     print()
     
 
+# #Create python code for displaying the following patterns 
+# """
+# * * * * *
+#  * * * *
+#   * * *
+#    * *
+#     *
+# """
+# # n=5
+# for r in range(5,0,-1):
+#     print(" "*int(5-r),"* "*r)
 
+# for i in range(0,6):
+#     print(" "*(5-i),"* "*i)
+# '''
+#     #output
+#      *
+#     * *
+#    * * *
+#   * * * *
+#  * * * * *
+
+# ''' 
+# n=5
+# for i in range(0,6):
+#     print(" "*(5-i),"* "*i)       
+# for r in range(4,0,-1):
+#     print(" "*int(5-r),"* "*r)
+
+# '''
+
+#      *
+#     * *
+#    * * *
+#   * * * *
+#  * * * * *
+#   * * * *
+#    * * *
+#     * *
+#      *       
+# '''
+# #rectangle 4*6
+
+# for i in range(4):
+#     for j in range(6):
+#         print("*",end=" ")
+#     print()
     
 
+# for i in range(5):
+#     for j in range(5):
+#         if i==0 or i==4 or j==0 or j==4:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
     
+for i in range(5,0,-1):
+    for j in range(1,i+1):
+        print(j,end="  ")
+    print()
+
