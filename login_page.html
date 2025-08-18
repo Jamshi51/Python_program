@@ -3,10 +3,16 @@
     <head>
         <title>login</title>
         <style>
-            #container{
-                background-color: beige;
-                margin: 100px;
+            body{
+                background-image: url('images/login\ page.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+          
+                
             }
+             
             .form-input{
                 margin:50px;
                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,12 +23,23 @@
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
             }
+            #container{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
         </style>
     </head>
     <body>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="register.html">Register</a>
+            <a href="login_page.html">Login</a>
+        </nav>
         <div id="container">
             <form>
-                <h1 style="color:blueviolet;text-align: center; ">Login Here..</h1>
+                <h1>Login Here..</h1>
                 <div class="form-input">
                     <label>Username : </label>
                     <input type="text" name="Username">
@@ -33,6 +50,11 @@
                 </div>
                 <div class="form-input">
                     <button type="submit">Login</button>
+                </div>
+                <div class="remeber-password" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    <input type="checkbox" name="Reminder">Remind Me
+                </div>
+                    <p>Don't have any account?<a href="register.html">Register Here</a></p>
                 </div>
             </form>
         </div>
