@@ -2,61 +2,47 @@
 <html>
     <head>
         <title>login</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
         <style>
             body{
-                background-image: url('images/login\ page.jpg');
+                background: url('https://img.freepik.com/free-photo/craft-equipment-blue-origami-paper-fan-beige-background_23-2148188384.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-attachment: fixed;
-          
-                
-            }
-             
-            .form-input{
-                margin:50px;
-                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            button[type="submit"]{
-                background-color: grey;
-                padding:5px 30px; /* 5px top and bottom,30px left and right */
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
-            }
-            #container{
+                display: flex;
                 justify-content: center;
                 align-items: center;
-                display: flex;
+                min-height: 100vh;
             }
         </style>
     </head>
     <body>
-        <nav>
-            <a href="Home.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="register.html">Register</a>
-            <a href="login_page.html">Login</a>
-        </nav>
-        <div id="container">
-            <form>
-                <h1>Login Here..</h1>
-                <div class="form-input">
-                    <label>Username : </label>
-                    <input type="text" name="Username">
+      <div class="wrapper">
+        <h1>Login</h1>
+        <form>
+                <div class="input-box">
+                    <!-- <label>Username : </label> -->
+                    <label><input type="text" name="Username" placeholder="Username"></label>
+                    <i class="fa-solid fa-user"></i>
                 </div>
-                <div class="form-input">
-                    <label>Password : </label>
-                    <input type="paswword" name="password">
+                <div class="input-box">
+                    <!-- <label>Password : </label> -->
+                    <label><input type="paswword" name="password" placeholder="Password"></label>
+                    <i class="fa-solid fa-lock"></i>
                 </div>
-                <div class="form-input">
+                <div class="remember-password" >
+                    <label><input type="checkbox" name="Reminder">Remind Password</label>
+                    <a href="" class="Reg-cls">Forget password</a>
+                </div>
+                <div class="btn-input">
                     <button type="submit">Login</button>
                 </div>
-                <div class="remeber-password" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-                    <input type="checkbox" name="Reminder">Remind Me
-                </div>
-                    <p>Don't have any account?<a href="register.html">Register Here</a></p>
+                    <p style="text-align: center;">Don't have any account?<a href="register_page.html" class="Reg-cls">Register </a></p>
                 </div>
             </form>
         </div>
+        </div>
+        
     </body>
 </html>
