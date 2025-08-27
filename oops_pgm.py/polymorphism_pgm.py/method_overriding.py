@@ -8,6 +8,6 @@ class Parent():
         print("parent : hii")
 class Child(Parent):
     def fun(self):
-        print("Child : Hellooo") # eplace with parent's version
+        print("Child : Hellooo") # replace with parent's version
 c=Child()
 c.fun()

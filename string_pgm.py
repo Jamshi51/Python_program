@@ -12,10 +12,10 @@ a=int(input("enter ur age"))
 print("my name is {} iam {} yrs old".format(n,a))
 """
 
-# language=" python "
-# # print(language.startswith("p"))
-# # print(language.endswith("n"))
-# # print(language.strip()) #avoid space after and before string
+language="python"
+print(language.startswith("p"))
+print(language.endswith("n"))
+print(language.strip()) #avoid space after and before string
 # # 
 
 # s="helooooooo"
@@ -40,3 +40,5 @@ print(sentence.replace(" ","_"))
 # Check if a string is a palindrome:
 word="malayalam"
 print(word==word[ : :-1])
+
+

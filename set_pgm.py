@@ -16,16 +16,16 @@
 # Then perform union, intersection, and difference operations on two sets of numbers. 
 # Finally, check if one set is a subset of another.
 
-list=["jamshi","jasi","aysha","harsha"]
-name=set(list)
-print(name)
+# list=["jamshi","jasi","aysha","harsha"]
+# name=set(list)
+# print(name)
 
-set1={1,4,3,2}
-set2={1,4,3,2,6}
-union=set1|set2
-intersection=set1 & set2
-difference=set2-set1 
-print("Union : ",union)
-print("intersection : ",intersection)
-print("difference : ",difference)
-print("set1 is subset of set2 ? True or False : ",set1.issubset(set2))
+# set1={1,4,3,2}
+# set2={1,4,3,2,6}
+# union=set1|set2
+# intersection=set1 & set2
+# difference=set2-set1 
+# print("Union : ",union)
+# print("intersection : ",intersection)
+# print("difference : ",difference)
+# print("set1 is subset of set2 ? True or False : ",set1.issubset(set2))

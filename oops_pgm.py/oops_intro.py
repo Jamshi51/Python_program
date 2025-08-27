@@ -1,6 +1,8 @@
 '''
-Object-Oriented Programming System (OOPs) is a programming approach that organizes software design around objects, rather than functions or logic.
-It uses classes and objects to model real-world things and their interactions, promoting modularity, reusability, and scalability in code.
+Object-Oriented Programming System (OOPs) is a programming approach that organizes software design around objects,
+rather than functions or logic.
+It uses classes and objects to model real-world things and their interactions, 
+promoting modularity, reusability, and scalability in code.
 class is a keyword
 
 '''

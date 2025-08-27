@@ -32,5 +32,15 @@ without changing its code.
 #     print(f"subtracted result : {a}-{b} = {a-b}")
 # subtract(60,50)
 
-
-
+def login_required(fun):
+    def wrapper(args):
+        if args.get("is _authenticated"):
+            fun(args)
+        else:
+            print("Permission denied \nPlease login")
+    return wrapper
+@login_required
+def Home(user):
+    print("welcome",user.get("name"))
+Home({"name":"jamshi","is_authenticated":False})
+    
