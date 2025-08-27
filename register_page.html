@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Register </h1>
+            <form>
+                <div class="input-box">
+                    <label><input type=name name=Username placeholder="Username"></label>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <label><input type=email name=email placeholder="Email id"></label>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <label><input type="password" name=password placeholder="Create Password"></label>
+                    <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('password', this)"></i>              
+                </div>
+                <div class="input-box">
+                    <label><input type="password" name=password placeholder="Conform Password"></label>
+                    <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('confirmPassword', this)"></i>
+                </div>
+                <div class="btn-input">
+                    <button type="submit" name="register">Register</button>
+                </div>
+                <div class="input-box">
+                    <p style="text-align: center;margin-top: 6px;">Already have an account?<a href="login_page.html" class="Reg-cls">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
