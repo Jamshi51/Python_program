@@ -29,9 +29,27 @@
 # print(sum)
 
 #Unzip a zipped object into individual lists.
-zipped=[("jamshi",90),("jaas",96)]
-name,grade=zip(*zipped)
-name=list(name)
-grade=list(grade)
-print("name : ",name)
-print("grade : ",grade)
+# zipped=[("jamshi",90),("jaas",96)]
+# name,grade=zip(*zipped)
+# name=list(name)
+# grade=list(grade)
+# print("name : ",name)
+# print("grade : ",grade)
+
+# d={"name":"jamshi","age":23,"hobby":["art","coding"]}
+# print(d.keys())
+# print(d.values())
+# print(d.items())
+# d.update({"place":"thrissur"})
+# print(d)
+# print(d.get("name"))
+# print(d.get("space","Default"))
+# print(d.pop("name"))
+
+# print(d.popitem())
+# print(d)
+
+name=["jamshi","jasir","aysha"]
+grade=[90,95,100]
+display=dict(zip(name,grade))
+print(display)

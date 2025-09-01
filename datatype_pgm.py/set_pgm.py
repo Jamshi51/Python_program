@@ -29,3 +29,15 @@
 # print("intersection : ",intersection)
 # print("difference : ",difference)
 # print("set1 is subset of set2 ? True or False : ",set1.issubset(set2))
+
+s1={1,2,"jamshi"}
+s2={1,3,5}
+# s.add(3)
+# print(s)
+#print(s1.union(s2))
+# s=sorted(s2)
+# print(s)
+# print(s1.intersection(s2))
+# print(s1.difference(s2))
+s1.pop()
+print(s1)

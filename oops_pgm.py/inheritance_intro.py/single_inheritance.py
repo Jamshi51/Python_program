@@ -41,3 +41,14 @@ Inheritance allows a class (child class) to acquire properties and methods of an
 # print(c1.color,c1.power)
 
 
+class parent:
+   def __init__(self,n,a):
+    self.name=n
+    self.age=a
+class child(parent):
+  def __init__(self,place,add,n,a):
+    self.place=place
+    self.address=add
+    super().__init__(n,a)
+c=child("th","anj","jam","21")
+print(c.name)

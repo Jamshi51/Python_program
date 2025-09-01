@@ -41,4 +41,9 @@ print(sentence.replace(" ","_"))
 word="malayalam"
 print(word==word[ : :-1])
 
+# fruits = ['apple', 'banana', 'grapes']
+# print(" ".join(fruits))
+
+
+
 
